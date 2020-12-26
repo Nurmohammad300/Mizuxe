@@ -1,0 +1,165 @@
+#logo{
+  color:#333;
+}
+nav{
+  box-shadow:1px 2px 3px #3292a6;
+  overflow:hidden;
+  background:rgba(255, 255, 255, 0.950)
+}
+.navbar {
+  padding: 1rem 1rem;
+}
+.nav-item{
+  font-size:1.3rem;
+  padding-right:10px
+}
+.nav-item:last-child{
+  padding-right:0;
+}
+#home-section{
+  width:100;
+  background:linear-gradient(#61A4A799,#61A4A799), url(img/mountains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom:50px;
+  margin-top:75px;
+}
+
+#home-demo{
+  width:100;
+  background:linear-gradient(#61A4A799,#61A4A799), url(img/mountains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom:50px;
+}
+#btn_1,
+.form-control-lg {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  outline:none;
+  border:none;
+  width:100%
+}
+#btn_1{
+  background:#3292A6;
+  color:white;
+}
+#card{
+  border:1px solid #3292a6;
+  border-radius:0;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  -ms-border-radius:0;
+  -o-border-radius:0;
+}
+
+.h3_1{
+  color:#333;
+  font-size:35px;
+  color:#3292a6
+
+}
+#card .card-body p{
+  font-size:1.2rem;
+}
+.bg-pri {
+  background-color: #2992a4 !important;
+}
+
+.para_1{
+  font-size:1.3rem
+}
+#accordion{
+  overflow:hidden;
+}
+.display{
+  color:#3292a6
+}
+#card_section{
+  overflow:hidden;
+}
+.top {
+  margin-top: -50px;
+}
+#customize-card{
+  background:transparent;
+  padding-bottom: 0 !important;
+  border:none;
+  font-size:1.3rem !important
+}
+
+#details a{
+  color:#333 !important;
+  padding-bottom:15px;
+  display:inline-block;
+  text-decoration:none;
+  font-size:1.2rem
+}
+.para_2{
+  font-size:1.1rem
+}
+#card_demo:hover{
+  background:#3292a6;
+  transition:background .4s linear;
+  -webkit-transition:background .4s linear;
+  -moz-transition:background .4s linear;
+  -ms-transition:background .4s linear;
+  -o-transition:background .4s linear;
+  color:#fff;
+}
+#card_demo:hover a{
+  color:#fff !important;
+}
+#submit{
+  background:#3292a6 !important;
+  cursor:pointer;
+  color:white;
+  font-size:1.1rem
+}
+#contact{
+  overflow:hidden;
+}
+
+#footer{
+  padding:50px 0;
+  background:#3292a6
+}
+/* making responsive of this web page */
+@media only screen and (max-width:440px) {
+  #display_2{
+    font-size:50px
+  }
+  #display{
+    font-size:35px;
+  }
+  .para_1{
+    font-size:1rem;
+  }
+}
+@media only screen and (max-width:767px) {
+  input[type="text"],
+  input[type="email"]{
+    margin-bottom:20px;
+  }
+}
+@media only screen and (max-width:991px){
+  #card{
+    margin-bottom:30px
+  }
+  #card_section{
+    padding-bottom:10px !important;
+  }
+  #card_demo{
+    margin-bottom:70px
+  }
+  #author{
+    padding-bottom:0 !important;
+  }
+
+
+}
